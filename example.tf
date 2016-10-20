@@ -102,3 +102,6 @@ output "ip" {
 output "private_ip" {
     value = "${aws_instance.example.private_ip}"
 }
+output "instance_type" {
+    value = "${aws_instance.example.instance_type}"
+}
