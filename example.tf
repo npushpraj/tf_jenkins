@@ -89,7 +89,6 @@ resource "aws_security_group" "jenkins_allow_all" {
  }
 
 
-
 }
 
 resource "aws_eip" "ip" {
